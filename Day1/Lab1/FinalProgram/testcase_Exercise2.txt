@@ -1,0 +1,1 @@
+3 45 28 2 001 0101 0010 01001 1.0 1. 12e2 9e-2 myVariable x alpha_123 vuNhatDuy + * / - %
