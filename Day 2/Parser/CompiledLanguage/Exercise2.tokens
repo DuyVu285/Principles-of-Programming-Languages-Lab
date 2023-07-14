@@ -1,0 +1,15 @@
+T__0=1
+T__1=2
+T__2=3
+T__3=4
+Integer=5
+Id=6
+WS=7
+ERROR_CHAR=8
+UNCLOSE_STRING=9
+ILLEGAL_ESCAPE=10
+UNTERMINATED_COMMENT=11
+'+'=1
+'-'=2
+'*'=3
+'/'=4
