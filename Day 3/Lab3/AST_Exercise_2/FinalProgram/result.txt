@@ -1,0 +1,1 @@
+Prog(IntStatement([a,b,c]),FloatStatement([x]))
