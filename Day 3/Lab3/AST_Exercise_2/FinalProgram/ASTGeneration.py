@@ -15,11 +15,6 @@ class ASTGeneration(Exercise2Visitor):
         elif ctx.FloatType():
             return FloatStatement(identifiers)
 
-    def visitIntType(self, node: Exercise2Parser.IntType):
-        return IntType()
-
     def visitIdentifier(self, node: Exercise2Parser.Identifier):
         return Id()
 
-    def visitFloatType(self, node: Exercise2Parser.FloatType):
-        return FloatType()

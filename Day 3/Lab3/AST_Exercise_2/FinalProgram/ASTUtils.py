@@ -53,24 +53,6 @@ class Id(Exp):
 
 
 @dataclass
-class IntType(Exp):
-    def __str__(self):
-        return "INTTYPE"
-
-    def accept(self, v, param):
-        return v.visitIntType(self, param)
-
-
-@dataclass
-class FloatType(Exp):
-    def __str__(self):
-        return "FLOATTYPE"
-
-    def accept(self, v, param):
-        return v.visitFloatType(self, param)
-
-
-@dataclass
 class Prog(AST):
     expr: List[Exp]
 

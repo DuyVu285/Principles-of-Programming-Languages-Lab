@@ -1,1 +1,0 @@
-Prog(BinOp("+",INT,INT),BinOp("+",BinOp("+",INT,INT),ID))
